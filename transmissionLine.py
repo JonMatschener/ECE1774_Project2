@@ -1,7 +1,6 @@
 class TransmissionLine:
     """
     Transmission line modeled by lumped parameters between two buses.
-    Milestone 1: data container only (no calculations).
     """
 
     def __init__(self, name: str, bus1_name: str, bus2_name: str,

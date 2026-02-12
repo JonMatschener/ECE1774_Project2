@@ -1,7 +1,6 @@
 class Transformer:
     """
     Transformer modeled by its series impedance (r + jx) between two buses.
-    Milestone 1: data container only (no calculations).
     """
 
     def __init__(self, name: str, bus1_name: str, bus2_name: str, r: float, x: float):
